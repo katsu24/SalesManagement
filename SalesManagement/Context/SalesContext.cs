@@ -7,7 +7,7 @@ using System.Data.Entity;
 
 namespace SalesManagement
 {
-    class SalesContext : DbContext
+    public class SalesContext : DbContext
     {
         public DbSet<M_Division> M_Divisions { get; set; }
 
