@@ -79,20 +79,20 @@
             this.groupBox4.Controls.Add(this.textBoxLoginName);
             this.groupBox4.Controls.Add(this.textBox1);
             this.groupBox4.Enabled = false;
-            this.groupBox4.Location = new System.Drawing.Point(4, 33);
+            this.groupBox4.Location = new System.Drawing.Point(5, 41);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(1, 2, 1, 2);
-            this.groupBox4.Size = new System.Drawing.Size(1336, 30);
+            this.groupBox4.Size = new System.Drawing.Size(1781, 38);
             this.groupBox4.TabIndex = 16;
             this.groupBox4.TabStop = false;
             // 
             // buttonLogout
             // 
-            this.buttonLogout.Location = new System.Drawing.Point(1237, 3);
+            this.buttonLogout.Location = new System.Drawing.Point(1649, 4);
             this.buttonLogout.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.buttonLogout.Name = "buttonLogout";
-            this.buttonLogout.Size = new System.Drawing.Size(66, 25);
+            this.buttonLogout.Size = new System.Drawing.Size(88, 31);
             this.buttonLogout.TabIndex = 1;
             this.buttonLogout.Text = "ログアウト";
             this.buttonLogout.UseVisualStyleBackColor = true;
@@ -100,20 +100,20 @@
             // labelLogin
             // 
             this.labelLogin.AutoSize = true;
-            this.labelLogin.Location = new System.Drawing.Point(1078, 12);
+            this.labelLogin.Location = new System.Drawing.Point(1437, 15);
             this.labelLogin.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.labelLogin.Name = "labelLogin";
-            this.labelLogin.Size = new System.Drawing.Size(47, 12);
+            this.labelLogin.Size = new System.Drawing.Size(58, 15);
             this.labelLogin.TabIndex = 1;
             this.labelLogin.Text = "ユーザ名";
             // 
             // textBoxLoginName
             // 
             this.textBoxLoginName.BackColor = System.Drawing.Color.White;
-            this.textBoxLoginName.Location = new System.Drawing.Point(1125, 10);
+            this.textBoxLoginName.Location = new System.Drawing.Point(1500, 12);
             this.textBoxLoginName.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.textBoxLoginName.Name = "textBoxLoginName";
-            this.textBoxLoginName.Size = new System.Drawing.Size(96, 19);
+            this.textBoxLoginName.Size = new System.Drawing.Size(127, 22);
             this.textBoxLoginName.TabIndex = 2;
             // 
             // textBox1
@@ -121,11 +121,11 @@
             this.textBox1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("MS UI Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.textBox1.Location = new System.Drawing.Point(10, 8);
+            this.textBox1.Location = new System.Drawing.Point(13, 10);
             this.textBox1.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(70, 16);
+            this.textBox1.Size = new System.Drawing.Size(93, 20);
             this.textBox1.TabIndex = 5;
             this.textBox1.Text = "部署マスタ";
             // 
@@ -133,30 +133,30 @@
             // 
             this.groupBox3.Controls.Add(this.buttonExport);
             this.groupBox3.Controls.Add(this.buttonImport);
-            this.groupBox3.Location = new System.Drawing.Point(4, 0);
+            this.groupBox3.Location = new System.Drawing.Point(5, 0);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(1, 2, 1, 2);
-            this.groupBox3.Size = new System.Drawing.Size(152, 32);
+            this.groupBox3.Size = new System.Drawing.Size(203, 40);
             this.groupBox3.TabIndex = 15;
             this.groupBox3.TabStop = false;
             // 
             // buttonExport
             // 
-            this.buttonExport.Location = new System.Drawing.Point(73, 6);
+            this.buttonExport.Location = new System.Drawing.Point(97, 8);
             this.buttonExport.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.buttonExport.Name = "buttonExport";
-            this.buttonExport.Size = new System.Drawing.Size(67, 24);
+            this.buttonExport.Size = new System.Drawing.Size(89, 30);
             this.buttonExport.TabIndex = 8;
             this.buttonExport.Text = "エクスポート";
             this.buttonExport.UseVisualStyleBackColor = true;
             // 
             // buttonImport
             // 
-            this.buttonImport.Location = new System.Drawing.Point(3, 6);
+            this.buttonImport.Location = new System.Drawing.Point(4, 8);
             this.buttonImport.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.buttonImport.Name = "buttonImport";
-            this.buttonImport.Size = new System.Drawing.Size(67, 24);
+            this.buttonImport.Size = new System.Drawing.Size(89, 30);
             this.buttonImport.TabIndex = 8;
             this.buttonImport.Text = "インポート";
             this.buttonImport.UseVisualStyleBackColor = true;
@@ -164,20 +164,20 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Location = new System.Drawing.Point(156, 0);
+            this.groupBox2.Location = new System.Drawing.Point(208, 0);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(1, 2, 1, 2);
-            this.groupBox2.Size = new System.Drawing.Size(208, 33);
+            this.groupBox2.Size = new System.Drawing.Size(277, 41);
             this.groupBox2.TabIndex = 14;
             this.groupBox2.TabStop = false;
             // 
             // buttonUpdate
             // 
-            this.buttonUpdate.Location = new System.Drawing.Point(237, 8);
+            this.buttonUpdate.Location = new System.Drawing.Point(316, 10);
             this.buttonUpdate.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.buttonUpdate.Name = "buttonUpdate";
-            this.buttonUpdate.Size = new System.Drawing.Size(75, 24);
+            this.buttonUpdate.Size = new System.Drawing.Size(100, 30);
             this.buttonUpdate.TabIndex = 0;
             this.buttonUpdate.Text = "更新";
             this.buttonUpdate.UseVisualStyleBackColor = true;
@@ -185,10 +185,10 @@
             // 
             // buttonRegist
             // 
-            this.buttonRegist.Location = new System.Drawing.Point(121, 8);
+            this.buttonRegist.Location = new System.Drawing.Point(161, 10);
             this.buttonRegist.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.buttonRegist.Name = "buttonRegist";
-            this.buttonRegist.Size = new System.Drawing.Size(74, 24);
+            this.buttonRegist.Size = new System.Drawing.Size(99, 30);
             this.buttonRegist.TabIndex = 0;
             this.buttonRegist.Text = "登録";
             this.buttonRegist.UseVisualStyleBackColor = true;
@@ -196,10 +196,10 @@
             // 
             // buttonSearch
             // 
-            this.buttonSearch.Location = new System.Drawing.Point(2, 8);
+            this.buttonSearch.Location = new System.Drawing.Point(3, 10);
             this.buttonSearch.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.buttonSearch.Name = "buttonSearch";
-            this.buttonSearch.Size = new System.Drawing.Size(73, 24);
+            this.buttonSearch.Size = new System.Drawing.Size(97, 30);
             this.buttonSearch.TabIndex = 0;
             this.buttonSearch.Text = "検索";
             this.buttonSearch.UseVisualStyleBackColor = true;
@@ -207,10 +207,10 @@
             // 
             // buttonDelete
             // 
-            this.buttonDelete.Location = new System.Drawing.Point(372, 8);
+            this.buttonDelete.Location = new System.Drawing.Point(496, 10);
             this.buttonDelete.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.buttonDelete.Name = "buttonDelete";
-            this.buttonDelete.Size = new System.Drawing.Size(81, 24);
+            this.buttonDelete.Size = new System.Drawing.Size(108, 30);
             this.buttonDelete.TabIndex = 0;
             this.buttonDelete.Text = "削除";
             this.buttonDelete.UseVisualStyleBackColor = true;
@@ -225,30 +225,30 @@
             this.groupBox1.Controls.Add(this.buttonPrint);
             this.groupBox1.Controls.Add(this.buttonClose);
             this.groupBox1.Controls.Add(this.buttonClear);
-            this.groupBox1.Location = new System.Drawing.Point(366, 0);
+            this.groupBox1.Location = new System.Drawing.Point(488, 0);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(1, 2, 1, 2);
-            this.groupBox1.Size = new System.Drawing.Size(943, 33);
+            this.groupBox1.Size = new System.Drawing.Size(1257, 41);
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
             // 
             // buttonPrint
             // 
-            this.buttonPrint.Location = new System.Drawing.Point(545, 8);
+            this.buttonPrint.Location = new System.Drawing.Point(727, 10);
             this.buttonPrint.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.buttonPrint.Name = "buttonPrint";
-            this.buttonPrint.Size = new System.Drawing.Size(65, 24);
+            this.buttonPrint.Size = new System.Drawing.Size(87, 30);
             this.buttonPrint.TabIndex = 2;
             this.buttonPrint.Text = "印刷";
             this.buttonPrint.UseVisualStyleBackColor = true;
             // 
             // buttonClose
             // 
-            this.buttonClose.Location = new System.Drawing.Point(874, 6);
+            this.buttonClose.Location = new System.Drawing.Point(1165, 8);
             this.buttonClose.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.buttonClose.Name = "buttonClose";
-            this.buttonClose.Size = new System.Drawing.Size(66, 24);
+            this.buttonClose.Size = new System.Drawing.Size(88, 30);
             this.buttonClose.TabIndex = 1;
             this.buttonClose.Text = "閉じる";
             this.buttonClose.UseVisualStyleBackColor = true;
@@ -256,10 +256,10 @@
             // 
             // buttonClear
             // 
-            this.buttonClear.Location = new System.Drawing.Point(640, 8);
+            this.buttonClear.Location = new System.Drawing.Point(853, 10);
             this.buttonClear.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.buttonClear.Name = "buttonClear";
-            this.buttonClear.Size = new System.Drawing.Size(65, 24);
+            this.buttonClear.Size = new System.Drawing.Size(87, 30);
             this.buttonClear.TabIndex = 0;
             this.buttonClear.Text = "入力クリア";
             this.buttonClear.UseVisualStyleBackColor = true;
@@ -267,20 +267,20 @@
             // 
             // textBoxDivisionID
             // 
-            this.textBoxDivisionID.Location = new System.Drawing.Point(103, 74);
+            this.textBoxDivisionID.Location = new System.Drawing.Point(137, 92);
             this.textBoxDivisionID.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.textBoxDivisionID.Name = "textBoxDivisionID";
-            this.textBoxDivisionID.Size = new System.Drawing.Size(112, 19);
+            this.textBoxDivisionID.Size = new System.Drawing.Size(148, 22);
             this.textBoxDivisionID.TabIndex = 12;
             this.textBoxDivisionID.TextChanged += new System.EventHandler(this.textBoxDivisionID_TextChanged);
             // 
             // labelDivisionID
             // 
             this.labelDivisionID.AutoSize = true;
-            this.labelDivisionID.Location = new System.Drawing.Point(45, 74);
+            this.labelDivisionID.Location = new System.Drawing.Point(60, 92);
             this.labelDivisionID.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.labelDivisionID.Name = "labelDivisionID";
-            this.labelDivisionID.Size = new System.Drawing.Size(40, 12);
+            this.labelDivisionID.Size = new System.Drawing.Size(51, 15);
             this.labelDivisionID.TabIndex = 11;
             this.labelDivisionID.Text = "部署ID";
             // 
@@ -289,162 +289,161 @@
             this.checkBoxDispFLG.AutoSize = true;
             this.checkBoxDispFLG.Checked = true;
             this.checkBoxDispFLG.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxDispFLG.Location = new System.Drawing.Point(103, 223);
+            this.checkBoxDispFLG.Location = new System.Drawing.Point(137, 279);
             this.checkBoxDispFLG.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.checkBoxDispFLG.Name = "checkBoxDispFLG";
-            this.checkBoxDispFLG.Size = new System.Drawing.Size(84, 16);
+            this.checkBoxDispFLG.Size = new System.Drawing.Size(105, 19);
             this.checkBoxDispFLG.TabIndex = 22;
             this.checkBoxDispFLG.Text = "（表示対象）";
             this.checkBoxDispFLG.UseVisualStyleBackColor = true;
             // 
             // textBoxComments
             // 
-            this.textBoxComments.Location = new System.Drawing.Point(103, 138);
+            this.textBoxComments.Location = new System.Drawing.Point(137, 172);
             this.textBoxComments.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.textBoxComments.Multiline = true;
             this.textBoxComments.Name = "textBoxComments";
-            this.textBoxComments.Size = new System.Drawing.Size(757, 77);
-            this.textBoxComments.TabIndex = 20;
+            this.textBoxComments.Size = new System.Drawing.Size(1008, 95);
+            this.textBoxComments.TabIndex = 21;
             // 
             // labelDispFLG
             // 
             this.labelDispFLG.AutoSize = true;
-            this.labelDispFLG.Location = new System.Drawing.Point(45, 223);
+            this.labelDispFLG.Location = new System.Drawing.Point(60, 279);
             this.labelDispFLG.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.labelDispFLG.Name = "labelDispFLG";
-            this.labelDispFLG.Size = new System.Drawing.Size(54, 12);
+            this.labelDispFLG.Size = new System.Drawing.Size(69, 15);
             this.labelDispFLG.TabIndex = 17;
             this.labelDispFLG.Text = "表示フラグ";
             // 
             // labelComments
             // 
             this.labelComments.AutoSize = true;
-            this.labelComments.Location = new System.Drawing.Point(45, 138);
+            this.labelComments.Location = new System.Drawing.Point(60, 172);
             this.labelComments.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.labelComments.Name = "labelComments";
-            this.labelComments.Size = new System.Drawing.Size(29, 12);
+            this.labelComments.Size = new System.Drawing.Size(37, 15);
             this.labelComments.TabIndex = 18;
             this.labelComments.Text = "備考";
             // 
             // textBoxDivisionName
             // 
-            this.textBoxDivisionName.Location = new System.Drawing.Point(103, 102);
+            this.textBoxDivisionName.Location = new System.Drawing.Point(137, 128);
             this.textBoxDivisionName.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.textBoxDivisionName.Name = "textBoxDivisionName";
-            this.textBoxDivisionName.Size = new System.Drawing.Size(757, 19);
-            this.textBoxDivisionName.TabIndex = 21;
+            this.textBoxDivisionName.Size = new System.Drawing.Size(1008, 22);
+            this.textBoxDivisionName.TabIndex = 20;
             // 
             // labelDivisionName
             // 
             this.labelDivisionName.AutoSize = true;
-            this.labelDivisionName.Location = new System.Drawing.Point(45, 102);
+            this.labelDivisionName.Location = new System.Drawing.Point(60, 128);
             this.labelDivisionName.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.labelDivisionName.Name = "labelDivisionName";
-            this.labelDivisionName.Size = new System.Drawing.Size(41, 12);
+            this.labelDivisionName.Size = new System.Drawing.Size(52, 15);
             this.labelDivisionName.TabIndex = 19;
             this.labelDivisionName.Text = "部署名";
             // 
             // dataGridViewDsp
             // 
             this.dataGridViewDsp.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewDsp.Location = new System.Drawing.Point(47, 253);
+            this.dataGridViewDsp.Location = new System.Drawing.Point(63, 316);
+            this.dataGridViewDsp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridViewDsp.Name = "dataGridViewDsp";
             this.dataGridViewDsp.RowTemplate.Height = 21;
-            this.dataGridViewDsp.Size = new System.Drawing.Size(1259, 409);
+            this.dataGridViewDsp.Size = new System.Drawing.Size(1679, 511);
             this.dataGridViewDsp.TabIndex = 23;
             this.dataGridViewDsp.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewData_CellClick);
             // 
             // labelPageSize
             // 
             this.labelPageSize.AutoSize = true;
-            this.labelPageSize.Location = new System.Drawing.Point(45, 691);
-            this.labelPageSize.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelPageSize.Location = new System.Drawing.Point(60, 864);
             this.labelPageSize.Name = "labelPageSize";
-            this.labelPageSize.Size = new System.Drawing.Size(65, 12);
+            this.labelPageSize.Size = new System.Drawing.Size(81, 15);
             this.labelPageSize.TabIndex = 1241;
             this.labelPageSize.Text = "1ページ行数";
             // 
             // buttonPageSizeChange
             // 
-            this.buttonPageSizeChange.Location = new System.Drawing.Point(177, 686);
-            this.buttonPageSizeChange.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonPageSizeChange.Location = new System.Drawing.Point(236, 858);
+            this.buttonPageSizeChange.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonPageSizeChange.Name = "buttonPageSizeChange";
-            this.buttonPageSizeChange.Size = new System.Drawing.Size(75, 23);
+            this.buttonPageSizeChange.Size = new System.Drawing.Size(100, 29);
             this.buttonPageSizeChange.TabIndex = 1245;
             this.buttonPageSizeChange.Text = "行数変更";
             this.buttonPageSizeChange.UseVisualStyleBackColor = true;
             // 
             // textBoxPageSize
             // 
-            this.textBoxPageSize.Location = new System.Drawing.Point(114, 689);
-            this.textBoxPageSize.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxPageSize.Location = new System.Drawing.Point(152, 861);
+            this.textBoxPageSize.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxPageSize.Name = "textBoxPageSize";
-            this.textBoxPageSize.Size = new System.Drawing.Size(46, 19);
+            this.textBoxPageSize.Size = new System.Drawing.Size(60, 22);
             this.textBoxPageSize.TabIndex = 1243;
             // 
             // labelPage
             // 
             this.labelPage.AutoSize = true;
-            this.labelPage.Location = new System.Drawing.Point(1128, 691);
-            this.labelPage.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelPage.Location = new System.Drawing.Point(1504, 864);
             this.labelPage.Name = "labelPage";
-            this.labelPage.Size = new System.Drawing.Size(35, 12);
+            this.labelPage.Size = new System.Drawing.Size(43, 15);
             this.labelPage.TabIndex = 1242;
             this.labelPage.Text = "ページ";
             // 
             // textBoxDisplayPageNo
             // 
-            this.textBoxDisplayPageNo.Location = new System.Drawing.Point(1070, 688);
-            this.textBoxDisplayPageNo.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxDisplayPageNo.Location = new System.Drawing.Point(1427, 860);
+            this.textBoxDisplayPageNo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxDisplayPageNo.Name = "textBoxDisplayPageNo";
-            this.textBoxDisplayPageNo.Size = new System.Drawing.Size(46, 19);
+            this.textBoxDisplayPageNo.Size = new System.Drawing.Size(60, 22);
             this.textBoxDisplayPageNo.TabIndex = 1244;
             // 
             // buttonLastPage
             // 
-            this.buttonLastPage.Location = new System.Drawing.Point(1263, 686);
-            this.buttonLastPage.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonLastPage.Location = new System.Drawing.Point(1684, 858);
+            this.buttonLastPage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonLastPage.Name = "buttonLastPage";
-            this.buttonLastPage.Size = new System.Drawing.Size(23, 22);
+            this.buttonLastPage.Size = new System.Drawing.Size(31, 28);
             this.buttonLastPage.TabIndex = 1249;
             this.buttonLastPage.Text = "▶|";
             this.buttonLastPage.UseVisualStyleBackColor = true;
             // 
             // buttonNextPage
             // 
-            this.buttonNextPage.Location = new System.Drawing.Point(1237, 686);
-            this.buttonNextPage.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonNextPage.Location = new System.Drawing.Point(1649, 858);
+            this.buttonNextPage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonNextPage.Name = "buttonNextPage";
-            this.buttonNextPage.Size = new System.Drawing.Size(23, 22);
+            this.buttonNextPage.Size = new System.Drawing.Size(31, 28);
             this.buttonNextPage.TabIndex = 1248;
             this.buttonNextPage.Text = "▶";
             this.buttonNextPage.UseVisualStyleBackColor = true;
             // 
             // buttonPreviousPage
             // 
-            this.buttonPreviousPage.Location = new System.Drawing.Point(1211, 686);
-            this.buttonPreviousPage.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonPreviousPage.Location = new System.Drawing.Point(1615, 858);
+            this.buttonPreviousPage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonPreviousPage.Name = "buttonPreviousPage";
-            this.buttonPreviousPage.Size = new System.Drawing.Size(23, 22);
+            this.buttonPreviousPage.Size = new System.Drawing.Size(31, 28);
             this.buttonPreviousPage.TabIndex = 1247;
             this.buttonPreviousPage.Text = "◀";
             this.buttonPreviousPage.UseVisualStyleBackColor = true;
             // 
             // buttonFirstPage
             // 
-            this.buttonFirstPage.Location = new System.Drawing.Point(1184, 686);
-            this.buttonFirstPage.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonFirstPage.Location = new System.Drawing.Point(1579, 858);
+            this.buttonFirstPage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonFirstPage.Name = "buttonFirstPage";
-            this.buttonFirstPage.Size = new System.Drawing.Size(23, 22);
+            this.buttonFirstPage.Size = new System.Drawing.Size(31, 28);
             this.buttonFirstPage.TabIndex = 1246;
             this.buttonFirstPage.Text = "|◀";
             this.buttonFirstPage.UseVisualStyleBackColor = true;
             // 
             // DivisionForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.ClientSize = new System.Drawing.Size(1800, 911);
             this.Controls.Add(this.labelPageSize);
             this.Controls.Add(this.buttonPageSizeChange);
             this.Controls.Add(this.textBoxPageSize);

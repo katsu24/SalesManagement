@@ -3,19 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.Entity;
 
 namespace SalesManagement
 {
-    public static class DbInitializer
+    public class DbInitializer : CreateDatabaseIfNotExists<SalesContext>
     {
-        public static void Initialize(SalesContext context)
+        protected override void Seed(SalesContext context)
         {
-            if (context.M_Messages.Any())
-            {
-                return;
-            }
+            base.Seed(context);
 
-            var messages = new M_Message[]
+            new List<M_Message>
             {
                 new M_Message {MsgID = "M00001", MsgComments = "販売管理システムを終了してよろしいですか？", MsgTitle = "終了確認", MsgButton = 1,MsgICon = 32},
                 new M_Message {MsgID = "M10001", MsgComments = "データを追加してよろしいですか？", MsgTitle = "追加確認", MsgButton = 1,MsgICon = 32},
@@ -30,7 +28,9 @@ namespace SalesManagement
                 new M_Message {MsgID = "M10010", MsgComments = "部署名は半角で50文字までです。", MsgTitle = "入力確認", MsgButton = 0,MsgICon = 16},
                 new M_Message {MsgID = "M10011", MsgComments = "1～3の値を入力してください。", MsgTitle = "入力確認", MsgButton = 0,MsgICon = 16},
                 new M_Message {MsgID = "M10012", MsgComments = "指定した部署IDは存在しません。", MsgTitle = "入力確認", MsgButton = 0,MsgICon = 16},
-            };
+            }.ForEach(m => context.M_Messages.Add(m));
+         
+            context.SaveChanges();
         }
     }
 }
